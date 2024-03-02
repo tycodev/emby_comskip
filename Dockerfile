@@ -11,3 +11,4 @@ RUN mkdir /comskip \
     && rm -rf comskip
 
 COPY comskip.ini /
+COPY comskip.sh /
