@@ -1,4 +1,4 @@
-FROM lscr.io/linuxserver/emby:4.8.3.0-ls198
+FROM linuxserver/emby:version-4.8.3.0
 ARG ComSkipperVersion=2.1.0.0
 RUN apt update && apt -y upgrade && apt install -y comskip unzip
 
