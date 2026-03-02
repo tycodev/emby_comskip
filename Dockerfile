@@ -1,4 +1,4 @@
-FROM linuxserver/emby:beta-version-4.9.4.1
+FROM linuxserver/emby:beta-version-4.10.0.4
 ARG ComSkipperVersion=2.1.0.0
 RUN apt update && apt -y upgrade && apt install -y comskip unzip
 
